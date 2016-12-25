@@ -1,11 +1,11 @@
 {
   "name": "store-duty",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "E-Commerce React App",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify src/main.js -t babelify --outfile public/bundle.js"
+    "build": "browserify src/main.js -t babelify --outfile public/bundle.js && node-sass --output-style compressed styles/main.scss public/main.css"
   },
   "keywords": [
     "React",
@@ -14,14 +14,17 @@
   "author": "Andrew H. Lee",
   "license": "ISC",
   "bugs": {
-  "url": "https://github.com/andrew-h-lee (issues page)"
+    "url": "https://github.com/andrew-h-lee/storeDuty/issues"
   },
-  "homepage": "https://github.com/andrew-h-lee/",
+  "homepage": "https://github.com/andrew-h-lee/storeDuty",
   "dependencies": {
+    "moment": "^2.17.1",
+    "numeral": "^2.0.4",
     "react": "^15.4.1",
     "react-dom": "^15.4.1"
   },
   "devDependencies": {
-    "babelify": "^6.1.2"
+    "babelify": "^6.1.2",
+    "node-sass": "^4.1.1"
   }
 }
