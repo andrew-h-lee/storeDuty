@@ -12,5 +12,6 @@
 * Browserify
 * Babel
 * NPM
+* SASS
 
 ## Reference:
