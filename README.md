@@ -14,4 +14,7 @@
 * NPM
 * SASS
 
+## Instructions:
+* Run `npm run build` on terminal then open `public/index.html` on browser.
+
 ## Reference:
